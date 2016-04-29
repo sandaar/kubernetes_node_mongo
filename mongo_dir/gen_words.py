@@ -1,6 +1,6 @@
 import json
 
-with open('records.json', 'w') as file_to_write:
+with open('words.json', 'w') as file_to_write:
     with open('/usr/share/dict/words', 'r') as f:
         count = 0
         for line in f:
